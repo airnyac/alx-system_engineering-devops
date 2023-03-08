@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "0 string SCHOOL  School data file"
+echo "0 string SCHOOL  School data file" | sudo tee /usr/share/misc/school.mgc >/dev/null
