@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "effective name of current user: $(who_am_i)"
+echo $(whoami)
