@@ -1,0 +1,2 @@
+echo "Enter a string: " | tr '[:upper:]' '[:lower:]' | tr -d 'c'
+read input_string
