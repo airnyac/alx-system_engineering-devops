@@ -1,2 +1,2 @@
-echo "Enter a string: " | tr '[:upper:]' '[:lower:]' | tr -d 'c'
-read input_string
+#!/bin/bash
+echo "Enter a string: " | tr '[:upper:]' '[:lower:]' | tr -d 'c' | read input_string | echo "$input_string" | tr '[:upper:]' '[:lower:]' | tr -d 'cC'
