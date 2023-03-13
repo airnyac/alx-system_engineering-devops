@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Enter a string: " | tr '[:upper:]' '[:lower:]' | tr 'ac' 'ze
