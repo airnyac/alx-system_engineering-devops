@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Enter a string: " | tr '[:upper:]' '[:lower:]' | tr 'ac' 'ze
+read input_string | tr '\n'''| echo "${input_string//A/Z} ${input_string//c/e}"
