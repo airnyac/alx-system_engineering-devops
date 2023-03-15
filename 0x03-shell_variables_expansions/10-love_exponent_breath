@@ -1,2 +1,2 @@
 #!/bin/bash
-breath=$BREATH | love=$LOVE | echo $((breath^love))
+echo $((BREATH^LOVE))
