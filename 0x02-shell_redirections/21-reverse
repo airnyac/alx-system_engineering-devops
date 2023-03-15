@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Enter a string: " | read input_string | rev "$input_string" 
+rev 
