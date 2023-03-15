@@ -1,0 +1,2 @@
+#!/bin/bash
+set | grep '^_' | cut -d' ' -f1 | printenv | cut -d= -f1 | declare -F | cut -d' ' -f3
