@@ -1,2 +1,2 @@
 #!/bin/bash
-read input_string | tr '\n'''| echo "${input_string//A/Z} ${input_string//c/e}"
+tr 'Ac' 'Ze'
