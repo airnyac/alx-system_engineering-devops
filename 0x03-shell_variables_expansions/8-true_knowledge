@@ -1,2 +1,2 @@
 #!/bin/bash
-true=$TRUEKNOWLEDGE | echo $((128 + true))
+true=$TRUEKNOWLEDGE | echo $((128+true))

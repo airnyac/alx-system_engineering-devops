@@ -1,2 +1,2 @@
 #!/bin/bash
-breath=$BREATH; love=$LOVE; echo "scale=2; $breath^$love" | bc
+breath=$BREATH | love=$LOVE | echo $((breath^love))
