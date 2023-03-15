@@ -1,0 +1,6 @@
+#!/bin/bash
+breath=$BREATH
+love=$LOVE
+result=$(echo "scale=2; $breath^$love" | bc)
+echo $result
+
